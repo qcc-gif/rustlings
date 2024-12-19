@@ -4,9 +4,17 @@
 #[rustfmt::skip]
 #[allow(unused_variables, unused_assignments)]
 fn main() {
+<<<<<<< HEAD
     let my_option: Option<()> = None;
     if my_option.is_none() {
         println!("{:?}", my_option.unwrap());
+=======
+    let my_option: Option<&str> = None;
+    // Assume that you don't know the value of `my_option`.
+    // In the case of `Some`, we want to print its value.
+    if my_option.is_none() {
+        println!("{}", my_option.unwrap());
+>>>>>>> 26cf4989a2d9ffe6464e737ec341305384c86080
     }
 
     let my_arr = &[

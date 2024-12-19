@@ -1,3 +1,29 @@
+<<<<<<< HEAD
 Cargo.lock
 target/
 .vscode/
+=======
+# Cargo
+target/
+Cargo.lock
+!/Cargo.lock
+
+# State file
+.rustlings-state.txt
+
+# oranda
+public/
+.netlify
+
+# OS
+.DS_Store
+.direnv/
+
+# Editor
+*.swp
+.idea
+*.iml
+
+# Ignore file for editors like Helix
+.ignore
+>>>>>>> 26cf4989a2d9ffe6464e737ec341305384c86080
